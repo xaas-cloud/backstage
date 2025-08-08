@@ -1,5 +1,16 @@
 # @backstage/core-compat-api
 
+## 0.5.0-next.3
+
+### Minor Changes
+
+- fda1bbc: **BREAKING**: The `componentsApi` implementation has been removed from the plugin and replaced with the new `SwappableComponentsApi` instead. Which means that the `componentsApi` is not longer backwards compatible with legacy plugins.
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/frontend-plugin-api@0.11.0-next.2
+
 ## 0.5.0-next.2
 
 ### Minor Changes

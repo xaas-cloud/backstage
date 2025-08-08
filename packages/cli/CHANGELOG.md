@@ -1,5 +1,11 @@
 # @backstage/cli
 
+## 0.34.0-next.2
+
+### Patch Changes
+
+- 8b1bf6e: Deprecated new frontend system config setting `app.experimental.packages` to just `app.packages`. The old config will continue working for the time being, but may be removed in a future release.
+
 ## 0.34.0-next.1
 
 ### Minor Changes

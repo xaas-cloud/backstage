@@ -1,5 +1,29 @@
 # @backstage/plugin-app
 
+## 0.2.0-next.2
+
+### Minor Changes
+
+- fda1bbc: **BREAKING**: The `componentsApi` implementation has been removed from the plugin and replaced with the new `SwappableComponentsApi` instead.
+
+  If you were overriding the `componentsApi` implementation, you can now use the new `SwappableComponentsApi` instead.
+
+  ```ts
+  // old
+  appPlugin.getExtension('api:app/components').override(...)
+
+  // new
+  appPlugin.getExtension('api:app/swappable-components').override(...)
+  ```
+
+### Patch Changes
+
+- fda1bbc: Default implementations of core components are now provided by this package.
+- 9831f4e: Adjusted the dialog API types to have more sensible defaults
+- Updated dependencies
+  - @backstage/frontend-plugin-api@0.11.0-next.2
+  - @backstage/core-components@0.17.5-next.2
+
 ## 0.2.0-next.1
 
 ### Minor Changes

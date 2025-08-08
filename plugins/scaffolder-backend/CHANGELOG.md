@@ -1,5 +1,11 @@
 # @backstage/plugin-scaffolder-backend
 
+## 2.2.0-next.1
+
+### Minor Changes
+
+- 2032660: Fixed fs:readdir action example
+
 ## 2.2.0-next.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @backstage/plugin-catalog-backend
 
+## 3.0.1-next.1
+
+### Patch Changes
+
+- 1752be6: Attempt to circumvent event listener memory leak in compression middleware
+
 ## 3.0.1-next.0
 
 ### Patch Changes
